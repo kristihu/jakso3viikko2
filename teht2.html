@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  
+
+  let rndIntFromTo = (from, to) => {return () => {return Math.floor(Math.random() * (from-to) + to)}};
+
+
+  let random = rndIntFromTo(1,10);
+
+  console.log(random());
+
+
+</script>
+
+</body>
+</html>
